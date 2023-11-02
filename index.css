@@ -1,0 +1,32 @@
+button{
+    background-color: red;
+}
+
+button:hover{
+    background-color: blueviolet;
+    padding: 10px;
+}
+span{
+    display: blok;
+    border: 1px soild;
+    padding: 10px;
+    margin: 5px;
+}
+
+span:nth-child(even) {
+    background-color: blue;
+}
+
+span:nth-child(odd):active {
+    background-color: beige;
+}
+
+p::first-line{
+    font-weight: bold;
+}
+div: ::after{
+    ::content: "Example";
+    color: :red
+}
+
+
